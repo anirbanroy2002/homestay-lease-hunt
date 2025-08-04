@@ -1,1 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Anirban's Notes 📝</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>😎</text></svg>">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            background: linear-gradient(180deg, #d4fc79, #96e6a1, yellow);
+
+            background-attachment: fixed;
+            color: #1b4332;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 20px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(12px);
+            border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+            animation: slideFadeIn 1s ease-in-out;
+        }
+
+        header h1 {
+            font-size: 2.2em;
+            margin: 0;
+            color: #2d6a4f;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 50px 30px;
+        }
+
+        .hotel {
+            margin-bottom: 60px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 16px;
+            backdrop-filter: blur(16px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+            animation: fadeUp 0.9s ease forwards;
+            transition: transform 0.3s ease;
+        }
+
+        .hotel:hover {
+            transform: scale(1.015);
+        }
+
+        h2 {
+            margin: 0;
+            background: rgba(0, 0, 0, 0.05);
+            padding: 15px 20px;
+            font-size: 1.7em;
+            color: #2d6a4f;
+        }
+
+        .image-row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .image-row img {
+            flex: 1 1 50%;
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border: none;
+        }
+
+        iframe {
+            width: 100%;
+            height: 250px;
+            border: none;
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+
+        .info {
+            padding: 18px 25px;
+            border-left: 5px solid #52b788;
+            background: rgba(255, 255, 255, 0.4);
+            margin-bottom: 12px;
+            border-radius: 5px;
+        }
+
+        .pros ul,
+        .cons ul {
+            margin: 5px 0;
+            padding-left: 20px;
+        }
+
+        .pros {
+            color: #2d6a4f;
+            font-weight: bold;
+        }
+
+        .cons {
+            color: #d00000;
+            font-weight: bold;
+        }
+
+        a {
+            color: #1b4332;
+            text-decoration: none;
+        }
+
+        .call-btn {
+            display: inline-block;
+            margin: 6px 8px 0 0;
+            padding: 12px 18px;
+            background: #61d19f;
+            color: white;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .call-btn:hover {
+            background: #40916c;
+        }
+
+        footer {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 30px;
+            font-size: 1em;
+            color: #1b4332;
+            border-top: 2px solid rgba(0, 0, 0, 0.05);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .image-row {
+                flex-direction: column;
+            }
+
+            .image-row img {
+                height: 180px;
+            }
+
+            header h1 {
+                font-size: 1.6em;
+            }
+
+            h2 {
+                font-size: 1.4em;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeUp {
+            from {
+                transform: translateY(30px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideFadeIn {
+            from {
+                transform: translateY(-30px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>📝 Anirban's Notes – Homestay Hunt August 2025 ⛰️</h1>
+    </header>
+
+    <div class="container">
+
+        <div class="hotel">
+            <h2>#1 Mount Range View Home Stay 🏔️</h2>
+            <div class="image-row">
+                <img src="mountrange1.png" alt="Mount Range View 1" />
+                <img src="mountrange2.png" alt="Mount Range View 2" />
+            </div>
+            <div class="info">📍 Dalapchand (3.5 Km from Delo, Kalimpong)</div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d221.99588528533602!2d88.5337688!3d27.0953717!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e41f83e5c65477%3A0x9fe27e537162ed63!2sMount%20Range%20View%20Home%20Stay!5e0!3m2!1sen!2sin!4v1754327339663!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="info pros">✅ Pros:
+                <ul>
+                    <li>Good location 📍</li>
+                    <li>Impeccable reviews and rating 🌟</li>
+                </ul>
+            </div>
+            <div class="info cons">❌ Cons:
+                <ul>
+                    <li>Might require active ad campaigning 📢</li>
+                </ul>
+            </div>
+            <div class="info">💡 Verdict: Should be extremely lucrative at the right price 💰</div>
+            <div class="info">
+                📞 Contact:
+                <a class="call-btn" href="tel:+918327200660">📱 Ram Bhujel</a>
+                <a class="call-btn" href="tel:+918972392014">📱 Ratan</a>
+            </div>
+        </div>
+
+        <div class="hotel">
+            <h2>#2 Gateway Homestay 🏡</h2>
+            <div class="image-row">
+                <img src="gateway1.png" alt="Gateway Homestay 1" />
+                <img src="gateway2.png" alt="Gateway Homestay 2" />
+            </div>
+            <div class="info">📍 Charkhole, Lolegaon, Kalimpong</div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3554.93840992536!2d88.5302138!3d27.000498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e419949b925079%3A0x46927328019cf62!2sGate%20Way%20Homestay%20Charkhole!5e0!3m2!1sen!2sin!4v1754327409954!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="info pros">✅ Pros:
+                <ul>
+                    <li>Popular destination 🗺️</li>
+                    <li>Can benefit from premium pricing 💸</li>
+                    <li>Great reviews and rating on Google ⭐</li>
+                </ul>
+            </div>
+            <div class="info cons">❌ Cons:
+                <ul>
+                    <li>Will need year-round ad-campaigning and commission-based OTA boosting 📈</li>
+                </ul>
+            </div>
+            <div class="info">
+                📞 Contact:
+                <a class="call-btn" href="tel:+918327200660">📱 Ram Bhujel</a>
+                <a class="call-btn" href="tel:+918972392014">📱 Ratan</a>
+            </div>
+        </div>
+
+        <div class="hotel">
+            <h2>#3 Norden Homestay (formerly Sherpa Homestay) 🏔️</h2>
+            <div class="image-row">
+                <img src="norden1.png" alt="Norden Homestay 1" />
+                <img src="norden2.webp" alt="Norden Homestay 2" />
+            </div>
+            <div class="info">📍 Takdah, on the way to Darjeeling</div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3553.724208250048!2d88.3620687!3d27.0388794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e4258cf6d8827d%3A0x58dfde9bff202143!2sNorden%20Homestay!5e0!3m2!1sen!2sin!4v1754327441909!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="info pros">✅ Pros:
+                <ul>
+                    <li>Popular among upper middle class Bengali tourists 💼</li>
+                    <li>Highly rated 💫</li>
+                </ul>
+            </div>
+            <div class="info cons">❌ Cons:
+                <ul>
+                    <li>Low review count on Google 👀</li>
+                </ul>
+            </div>
+            <div class="info">
+                📞 Contact:
+                <a class="call-btn" href="tel:+918327200660">📱 Ram Bhujel</a>
+                <a class="call-btn" href="tel:+918972392014">📱 Ratan</a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer style="color: black; font-size: 20px;">
+
+    </footer>
+    <script>
+        document.querySelector("footer").innerText = new Date().getDate() + "/" + (new Date().getMonth() + 1) + "/" + new Date().getFullYear();
+    </script>
+</body>
+
+</html>
