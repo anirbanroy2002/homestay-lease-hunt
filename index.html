@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anirban's Notes 📝</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      /*background: linear-gradient(135deg, #d4fc79, #96e6a1);*/
+      background-image: url(bg.webp);
+      background-repeat: no-repeat;
+      background-size: cover;
+      ;
+      background-attachment: fixed;
+      color: #1b4332;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 20px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(12px);
+      border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+      animation: slideFadeIn 1s ease-in-out;
+    }
+
+    header h1 {
+      font-size: 2.2em;
+      margin: 0;
+      color: #5ffc39;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 50px 30px;
+    }
+
+    .hotel {
+      margin-bottom: 60px;
+      background: rgba(255, 255, 255, 0.3);
+      border-radius: 16px;
+      backdrop-filter: blur(16px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+      overflow: hidden;
+      animation: fadeUp 0.9s ease forwards;
+      transition: transform 0.3s ease;
+    }
+
+    .hotel:hover {
+      transform: scale(1.015);
+    }
+
+    h2 {
+      margin: 0;
+      background: rgba(0, 0, 0, 0.05);
+      padding: 15px 20px;
+      font-size: 1.7em;
+      color: #5ffc39;
+    }
+
+    .image-row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .image-row img {
+      flex: 1 1 50%;
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border: none;
+    }
+
+    iframe {
+      width: 100%;
+      height: 250px;
+      border: none;
+      margin-top: 10px;
+      border-radius: 10px;
+    }
+
+    .info {
+      padding: 18px 25px;
+      border-left: 5px solid #52b788;
+      background: rgba(255, 255, 255, 0.4);
+      margin-bottom: 12px;
+      border-radius: 5px;
+    }
+
+    .pros ul, .cons ul {
+      margin: 5px 0;
+      padding-left: 20px;
+    }
+
+    .pros {
+      color: #5ffc39;
+      font-weight: bold;
+    }
+
+    .cons {
+      color: #d00000;
+      font-weight: bold;
+    }
+
+    a {
+      color: #1b4332;
+      text-decoration: none;
+    }
+
+    .call-btn {
+      display: inline-block;
+      margin: 6px 8px 0 0;
+      padding: 12px 18px;
+      background: #5ffc39;
+      color: black;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+
+    .call-btn:hover {
+      background: #40916c;
+    }
+
+    footer {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.15);
+      padding: 30px;
+      font-size: 1em;
+      color: #1b4332;
+      border-top: 2px solid rgba(0, 0, 0, 0.05);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .image-row {
+        flex-direction: column;
+      }
+
+      .image-row img {
+        height: 180px;
+      }
+
+      header h1 {
+        font-size: 1.6em;
+      }
+
+      h2 {
+        font-size: 1.4em;
+      }
+    }
+
+    /* Animations */
+    @keyframes fadeUp {
+      from {
+        transform: translateY(30px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideFadeIn {
+      from {
+        transform: translateY(-30px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>📝 Anirban's Notes – Homestay Hunt August 2025 ⛰️</h1>
+</header>
+
+<div class="container">
+
+  <div class="hotel">
+    <h2>#1 Mount Range View Home Stay 🏔️</h2>
+    <div class="image-row">
+      <img src="https://via.placeholder.com/600x220?text=Mount+Range+View+1" alt="Mount Range View 1" />
+      <img src="https://via.placeholder.com/600x220?text=Mount+Range+View+2" alt="Mount Range View 2" />
+    </div>
+    <div class="info">📍 Dalapchand (3.5 Km from Delo, Kalimpong)</div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.238783987483!2d88.4943794!3d27.0744664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e6a62abf4970d9%3A0xf4e5a3093bd2e2fa!2sDalapchand%2C%20West%20Bengal%20734106!5e0!3m2!1sen!2sin!4v1693802300000" loading="lazy"></iframe>
+    <div class="info pros">✅ Pros:
+      <ul>
+        <li>Good location 📍</li>
+        <li>Impeccable reviews and rating 🌟</li>
+      </ul>
+    </div>
+    <div class="info cons">❌ Cons:
+      <ul>
+        <li>Might require active ad campaigning 📢</li>
+      </ul>
+    </div>
+    <div class="info">💡 Verdict: Should be extremely lucrative at the right price 💰</div>
+    <div class="info">
+      📞 Contact: 
+      <a class="call-btn" href="tel:+918327200660">📱 Ram Bhujel</a>
+      <a class="call-btn" href="tel:+918972392014">📱 Ratan</a>
+    </div>
+  </div>
+
+  <div class="hotel">
+    <h2>#2 Gateway Homestay 🏡</h2>
+    <div class="image-row">
+      <img src="https://via.placeholder.com/600x220?text=Gateway+Homestay+1" alt="Gateway Homestay 1" />
+      <img src="https://via.placeholder.com/600x220?text=Gateway+Homestay+2" alt="Gateway Homestay 2" />
+    </div>
+    <div class="info">📍 Charkhole, Lolegaon, Kalimpong</div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3584.238256006934!2d88.6450226!3d27.0460387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e6f1e64edb71f5%3A0x87351bd18b04fd6d!2sCharkhole%2C%20West%20Bengal%20734105!5e0!3m2!1sen!2sin!4v1693802400000" loading="lazy"></iframe>
+    <div class="info pros">✅ Pros:
+      <ul>
+        <li>Popular destination 🗺️</li>
+        <li>Can benefit from premium pricing 💸</li>
+        <li>Great reviews and rating on Google ⭐</li>
+      </ul>
+    </div>
+    <div class="info cons">❌ Cons:
+      <ul>
+        <li>Will need year-round ad-campaigning and commission-based OTA boosting 📈</li>
+      </ul>
+    </div>
+    <div class="info">
+      📞 Contact: 
+      <a class="call-btn" href="tel:+918327200660">📱 Ram Bhujel</a>
+      <a class="call-btn" href="tel:+918972392014">📱 Ratan</a>
+    </div>
+  </div>
+
+  <div class="hotel">
+    <h2>#3 Norden Homestay (formerly Sherpa Homestay) 🏔️</h2>
+    <div class="image-row">
+      <img src="https://via.placeholder.com/600x220?text=Norden+Homestay+1" alt="Norden Homestay 1" />
+      <img src="https://via.placeholder.com/600x220?text=Norden+Homestay+2" alt="Norden Homestay 2" />
+    </div>
+    <div class="info">📍 Takdah, on the way to Darjeeling</div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.1908446034574!2d88.4266048!3d27.132109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e6a5a9a6e3d729%3A0x63a5d16997eb0b92!2sTakdah%2C%20West%20Bengal%20734108!5e0!3m2!1sen!2sin!4v1693802500000" loading="lazy"></iframe>
+    <div class="info pros">✅ Pros:
+      <ul>
+        <li>Popular among upper middle class Bengali tourists 💼</li>
+        <li>Highly rated 💫</li>
+      </ul>
+    </div>
+    <div class="info cons">❌ Cons:
+      <ul>
+        <li>Low review count on Google 👀</li>
+      </ul>
+    </div>
+    <div class="info">
+      📞 Contact: 
+      <a class="call-btn" href="tel:+918327200660">📱 Ram Bhujel</a>
+      <a class="call-btn" href="tel:+918972392014">📱 Ratan</a>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  Made with 🍃 freshness and Comic Sans 🖍️ by Anirban | August 2025 📅
+</footer>
+
+</body>
+</html>
